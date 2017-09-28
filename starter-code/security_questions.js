@@ -16,8 +16,8 @@ var securityQuestions = [
 	},
 ];
 
-var input = ""
-var stop = false;
+var input;
+
 for (i = 0; i < securityQuestions.length; i++){
 input = prompt (securityQuestions[i].question);
 if(input !== securityQuestions[i].expectedAnswer){
@@ -27,6 +27,6 @@ if(input !== securityQuestions[i].expectedAnswer){
 }
 }
 
-if (stop = true){
-	alert("stop that!");
+else{
+	alert("stop now!")
 }
