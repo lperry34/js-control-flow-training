@@ -2,7 +2,7 @@ console.log("login.js loaded");
 userLogin = {userName: "lperry34", password: "LeviRules"}
 
 var input;
-var accepted = false;
+var accepted;
 
 while(!accepted){
 	input = prompt("Enter password for " + userLogin.userName)
